@@ -1,0 +1,2 @@
+rootProject.name = "VerificaTodos"
+include ':app'

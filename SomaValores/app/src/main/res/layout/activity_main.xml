@@ -1,0 +1,52 @@
+
+<!--Fill_Parent: A utilização do fill_parent ocupará o máximo de espaço disponível para o elemento no layout -->
+
+<!--Wrap_Content: Forçará a expansão apenas o suficiente para conter os valores do elemento -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o primeiro número" />
+
+    <EditText
+        android:id="@+id/valor1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o segundo número" />
+
+    <EditText
+        android:id="@+id/valor2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btsomar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Somar" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="396dp"
+        android:layout_height="56dp"
+        android:text=""
+        android:textColor="#00ccff"
+        android:textColorLink="#8DE67F"
+        android:textSize="16sp"
+    />
+</LinearLayout>

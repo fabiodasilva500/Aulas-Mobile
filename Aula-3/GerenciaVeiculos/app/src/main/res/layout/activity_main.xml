@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/lblModelo"
+        android:layout_width="fill_parent"
+        android:layout_height="59dp"
+        android:textSize="16sp"
+        android:text="Informe o modelo do Veículo" />
+
+
+    <EditText
+        android:id="@+id/txtModelo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblAno"
+        android:layout_width="fill_parent"
+        android:layout_height="59dp"
+        android:textSize="16sp"
+        android:text="Informe o ano do Veículo" />
+
+    <EditText
+        android:id="@+id/txtAno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/lblVelocidade"
+        android:layout_width="fill_parent"
+        android:layout_height="59dp"
+        android:textSize="16sp"
+        android:text="Informe a velocidade do Veículo" />
+
+
+    <EditText
+        android:id="@+id/txtVelocidade"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnExibir"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Exibir dados" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="396dp"
+        android:layout_height="615dp"
+        android:text=""
+        android:textSize="20sp" />
+
+</LinearLayout>

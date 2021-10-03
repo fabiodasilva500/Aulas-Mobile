@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Informe o seu peso" />
+
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe a sua altura" />
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="396dp"
+        android:layout_height="56dp"
+        android:text=""
+        android:textColor="#00ccff"
+        android:textColorLink="#8DE67F"
+        android:textSize="16sp"
+        />
+</LinearLayout>
+
+

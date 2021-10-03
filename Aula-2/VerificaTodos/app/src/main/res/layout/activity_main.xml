@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblInfoNumeros"
+        android:layout_width="fill_parent"
+        android:layout_height="59dp"
+        android:text="Selecione a opção desejada"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtValor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Calcular"
+        android:visibility="invisible">
+    </Button>
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rdbPares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonSelected"
+            android:text="Exibe números pares" />
+
+        <RadioButton
+            android:id="@+id/rdbImpares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonSelected"
+            android:text="Exibe números ímpares" />
+
+        <RadioButton
+            android:id="@+id/rdbDivisiveis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonSelected"
+            android:text="Exibe divisíveis por 5" />
+
+        <RadioButton
+            android:id="@+id/rdbFatorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonSelected"
+            android:text="Calculo do Fatorial" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="396dp"
+        android:layout_height="615dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="16sp" />
+
+</LinearLayout>
+

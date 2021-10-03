@@ -1,0 +1,2 @@
+rootProject.name = "VerificaParImparModulo"
+include ':app'

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/lblInfoNt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite a nota do 1º bimestre" />
+
+    <EditText
+        android:id="@+id/nota1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/lblInfoNt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite a nota do 2º bimestre" />
+
+    <EditText
+        android:id="@+id/nota2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/lblInfoNt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite a nota do 3º bimestre" />
+
+    <EditText
+        android:id="@+id/nota3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/lblInfoNt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite a nota do 4º bimestre" />
+
+    <EditText
+        android:id="@+id/nota4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="396dp"
+        android:layout_height="56dp"
+        android:text=""
+        android:textSize="16sp"
+        />
+</LinearLayout>
