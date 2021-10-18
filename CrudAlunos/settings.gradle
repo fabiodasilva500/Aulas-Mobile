@@ -1,0 +1,2 @@
+rootProject.name = "CrudAlunos"
+include ':app'

@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/lblInfoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: " />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoID" />
+
+    <TextView
+        android:id="@+id/lblInfoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome "
+        android:layout_below="@+id/txtID"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoNome"
+        android:layout_alignTop="@+id/lblInfoNome"
+        />
+
+
+    <TextView
+        android:id="@+id/lblEixoTecnologico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eixo tecnológico "
+        android:layout_below="@+id/txtNome"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtEixoTecnologico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblEixoTecnologico"
+        android:layout_alignTop="@+id/lblEixoTecnologico"
+        />
+
+    <TextView
+        android:id="@+id/lblDuracao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duração "
+        android:layout_below="@+id/txtEixoTecnologico"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtDuracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblDuracao"
+        android:layout_alignTop="@+id/lblDuracao"
+        />
+
+    <TextView
+        android:id="@+id/lblClassificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classificação "
+        android:layout_below="@+id/txtDuracao"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/txtClassificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblClassificacao"
+        android:layout_alignTop="@+id/lblClassificacao"
+        />
+
+    <TextView
+        android:id="@+id/lblModalidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modalidade "
+        android:layout_below="@+id/txtClassificacao"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtModalidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblModalidade"
+        android:layout_alignTop="@+id/lblModalidade"
+        />
+
+
+    <Button
+        android:id="@+id/bnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtModalidade"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:text="Incluir" />
+
+    <Button
+        android:id="@+id/bnAtualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnEnviar"
+        android:layout_alignTop="@+id/bnEnviar"
+        android:text="Alterar" />
+
+    <Button
+        android:id="@+id/bnExcluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnAtualizar"
+        android:layout_alignTop="@+id/bnAtualizar"
+        android:text="Excluir" />
+
+
+    <Button
+        android:id="@+id/bnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnExcluir"
+        android:layout_alignTop="@+id/bnExcluir"
+        android:text="Consultar" />
+
+</RelativeLayout>

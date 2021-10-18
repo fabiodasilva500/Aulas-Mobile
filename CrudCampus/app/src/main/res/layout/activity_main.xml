@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/lblInfoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: " />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoID" />
+
+    <TextView
+        android:id="@+id/lblInfoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome "
+        android:layout_below="@+id/txtID"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoNome"
+        android:layout_alignTop="@+id/lblInfoNome"
+        />
+
+
+    <TextView
+        android:id="@+id/lblEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereço "
+        android:layout_below="@+id/txtNome"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblEndereco"
+        android:layout_alignTop="@+id/lblEndereco"
+        />
+
+    <TextView
+        android:id="@+id/lblCapacidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capacidade de alunos "
+        android:layout_below="@+id/txtEndereco"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtCapacidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblCapacidade"
+        android:layout_alignTop="@+id/lblCapacidade"
+        />
+
+    <TextView
+        android:id="@+id/lblPontoReferencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ponto de referência "
+        android:layout_below="@+id/txtCapacidade"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/txtPontoReferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblPontoReferencia"
+        android:layout_alignTop="@+id/lblPontoReferencia"
+        />
+
+
+    <TextView
+        android:id="@+id/lblTurnos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turnos disponíveis "
+        android:layout_below="@+id/txtPontoReferencia"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/txtTurnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblTurnos"
+        android:layout_alignTop="@+id/lblTurnos"
+        />
+
+
+
+    <Button
+        android:id="@+id/bnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTurnos"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:text="Incluir" />
+
+    <Button
+        android:id="@+id/bnAtualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnEnviar"
+        android:layout_alignTop="@+id/bnEnviar"
+        android:text="Alterar" />
+
+    <Button
+        android:id="@+id/bnExcluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnAtualizar"
+        android:layout_alignTop="@+id/bnAtualizar"
+        android:text="Excluir" />
+
+
+    <Button
+        android:id="@+id/bnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnExcluir"
+        android:layout_alignTop="@+id/bnExcluir"
+        android:text="Consultar" />
+
+</RelativeLayout>
