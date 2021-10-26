@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroDepartamentoActivity" >
+
+    <TextView
+        android:id="@+id/lblInfoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: " />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoID" />
+
+    <TextView
+        android:id="@+id/lblInfoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome "
+        android:layout_below="@+id/txtID"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoNome"
+        android:layout_alignTop="@+id/lblInfoNome"
+        />
+
+
+    <TextView
+        android:id="@+id/lblArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Área "
+        android:layout_below="@+id/txtNome"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblArea"
+        android:layout_alignTop="@+id/lblArea"
+        />
+
+
+    <TextView
+        android:id="@+id/lblServico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serviços oferecidos "
+        android:layout_below="@+id/txtArea"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblServico"
+        android:layout_alignTop="@+id/lblServico"
+        />
+
+
+    <TextView
+        android:id="@+id/lblQtdFuncionarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de funcionários "
+        android:layout_below="@+id/txtServico"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/txtQtdFuncionarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblQtdFuncionarios"
+        android:layout_alignTop="@+id/lblQtdFuncionarios"
+        />
+
+    <Button
+        android:id="@+id/bnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtQtdFuncionarios"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:text="Incluir" />
+
+    <Button
+        android:id="@+id/bnAtualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnEnviar"
+        android:layout_alignTop="@+id/bnEnviar"
+        android:text="Alterar" />
+
+
+    <Button
+        android:id="@+id/bnExcluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnAtualizar"
+        android:layout_alignTop="@+id/bnAtualizar"
+        android:text="Excluir" />
+
+
+    <Button
+        android:id="@+id/bnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnExcluir"
+        android:layout_alignTop="@+id/bnExcluir"
+        android:text="Consultar" />
+
+
+    <Button
+        android:id="@+id/bnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bnConsultar"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="-142dp"
+        android:text="Voltar" />
+
+</RelativeLayout>

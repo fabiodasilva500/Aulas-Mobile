@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_empresa"
+        android:title="Empresa"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_inventario"
+        android:title="Inventário"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_funcionario"
+        android:title="Funcionário"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/action_cargos"
+        android:title="Cargos"
+        app:showAsAction="always|withText"
+        />
+    <item
+        android:id="@+id/action_departamentos"
+        android:title="Departamentos"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>

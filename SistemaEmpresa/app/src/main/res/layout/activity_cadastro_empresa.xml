@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroEmpresaActivity" >
+
+    <TextView
+        android:id="@+id/lblInfoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: " />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoID" />
+
+    <TextView
+        android:id="@+id/lblInfoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome "
+        android:layout_below="@+id/txtID"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoNome"
+        android:layout_alignTop="@+id/lblInfoNome"
+        />
+
+
+    <TextView
+        android:id="@+id/lblDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição "
+        android:layout_below="@+id/txtNome"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblDescricao"
+        android:layout_alignTop="@+id/lblDescricao"
+        />
+
+
+    <TextView
+        android:id="@+id/lblEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turno "
+        android:layout_below="@+id/txtDescricao"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/txtEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblEndereco"
+        android:layout_alignTop="@+id/lblEndereco"
+        />
+
+    <TextView
+        android:id="@+id/lblFinalidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalidade dos serviços "
+        android:layout_below="@+id/txtEndereco"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/txtFinalidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblFinalidade"
+        android:layout_alignTop="@+id/lblFinalidade"
+        />
+
+
+    <TextView
+        android:id="@+id/lblQtdAndares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de andares disponíveis "
+        android:layout_below="@+id/txtFinalidade"
+        android:layout_alignParentLeft="true" />
+
+
+
+    <EditText
+        android:id="@+id/txtQtdAndares"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblQtdAndares"
+        android:layout_alignTop="@+id/lblQtdAndares"
+        />
+
+
+
+    <Button
+        android:id="@+id/bnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtQtdAndares"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:text="Incluir" />
+
+    <Button
+        android:id="@+id/bnAtualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnEnviar"
+        android:layout_alignTop="@+id/bnEnviar"
+        android:text="Alterar" />
+
+    <Button
+        android:id="@+id/bnExcluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnAtualizar"
+        android:layout_alignTop="@+id/bnAtualizar"
+        android:text="Excluir" />
+
+
+    <Button
+        android:id="@+id/bnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnExcluir"
+        android:layout_alignTop="@+id/bnExcluir"
+        android:text="Consultar" />
+
+
+    <Button
+        android:id="@+id/bnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bnConsultar"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="-142dp"
+        android:text="Voltar" />
+
+</RelativeLayout>

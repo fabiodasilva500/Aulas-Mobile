@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroFuncionarioActivity" >
+
+    <TextView
+        android:id="@+id/lblInfoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: " />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoID" />
+
+    <TextView
+        android:id="@+id/lblInfoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:layout_below="@+id/txtID"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoNome"
+        android:layout_alignTop="@+id/lblInfoNome"
+        />
+
+
+    <TextView
+        android:id="@+id/lblEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereço "
+        android:layout_below="@+id/txtNome"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblEndereco"
+        android:layout_alignTop="@+id/lblEndereco"
+        />
+
+    <TextView
+        android:id="@+id/lblDataAdmissao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de admissão "
+        android:layout_below="@+id/txtEndereco"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/txtDataAdmissao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblDataAdmissao"
+        android:layout_alignTop="@+id/lblDataAdmissao"
+        />
+
+    <TextView
+        android:id="@+id/lblCargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargo "
+        android:layout_below="@+id/txtDataAdmissao"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/txtCargo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblCargo"
+        android:layout_alignTop="@+id/lblCargo"
+        />
+
+    <TextView
+        android:id="@+id/lblSalario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salário "
+        android:layout_below="@+id/txtCargo"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/txtSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblSalario"
+        android:layout_alignTop="@+id/lblSalario"
+        />
+
+
+    <Button
+        android:id="@+id/bnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSalario"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:text="Incluir" />
+
+    <Button
+        android:id="@+id/bnAtualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnEnviar"
+        android:layout_alignTop="@+id/bnEnviar"
+        android:text="Alterar" />
+
+    <Button
+        android:id="@+id/bnExcluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnAtualizar"
+        android:layout_alignTop="@+id/bnAtualizar"
+        android:text="Excluir" />
+
+
+    <Button
+        android:id="@+id/bnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bnExcluir"
+        android:layout_alignTop="@+id/bnExcluir"
+        android:text="Consultar" />
+
+    <Button
+        android:id="@+id/bnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bnConsultar"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="-142dp"
+        android:text="Voltar" />
+
+</RelativeLayout>

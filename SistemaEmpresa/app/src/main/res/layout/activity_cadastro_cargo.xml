@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroCargoActivity">
+
+    <TextView
+        android:id="@+id/lblInfoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: " />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblInfoID" />
+
+    <TextView
+        android:id="@+id/lblInfoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtID"
+        android:layout_alignParentLeft="true"
+        android:text="Nome " />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblInfoNome"
+        android:layout_toRightOf="@+id/lblInfoNome" />
+
+
+    <TextView
+        android:id="@+id/lblDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNome"
+        android:layout_alignParentLeft="true"
+        android:text="Descrição " />
+
+    <EditText
+        android:id="@+id/txtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblDescricao"
+        android:layout_toRightOf="@+id/lblDescricao"
+        />
+
+    <TextView
+        android:id="@+id/lblFaixaSalarial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDescricao"
+        android:layout_alignParentLeft="true"
+        android:text="Faixa salarial " />
+
+    <EditText
+        android:id="@+id/txtFaixaSalarial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblFaixaSalarial"
+        android:layout_toRightOf="@+id/lblFaixaSalarial" />
+
+    <TextView
+        android:id="@+id/lblSuperior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFaixaSalarial"
+        android:layout_alignParentLeft="true"
+        android:text="Superior " />
+
+    <EditText
+        android:id="@+id/txtSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblSuperior"
+        android:layout_toRightOf="@+id/lblSuperior" />
+
+
+    <Button
+        android:id="@+id/bnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSuperior"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:text="Incluir" />
+
+    <Button
+        android:id="@+id/bnAtualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bnEnviar"
+        android:layout_toRightOf="@+id/bnEnviar"
+        android:text="Alterar" />
+
+    <Button
+        android:id="@+id/bnExcluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bnAtualizar"
+        android:layout_toRightOf="@+id/bnAtualizar"
+        android:text="Excluir" />
+
+
+    <Button
+        android:id="@+id/bnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bnExcluir"
+        android:layout_toRightOf="@+id/bnExcluir"
+        android:text="Consultar" />
+
+    <Button
+        android:id="@+id/bnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bnConsultar"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="-142dp"
+        android:text="Voltar" />
+</RelativeLayout>
