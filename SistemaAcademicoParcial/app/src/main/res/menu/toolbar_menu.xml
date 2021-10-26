@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_campus"
+        android:title="Campus"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/action_cursos"
+        android:title="Cursos"
+        app:showAsAction="always|withText"
+        />
+    <item
+        android:id="@+id/action_alunos"
+        android:title="Alunos"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_turmas"
+        android:title="Turmas"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_disciplinas"
+        android:title="Disciplinas"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
