@@ -1,0 +1,2 @@
+com/example/produtolinearlayout/BuildConfig.java
+ com.example.produtolinearlayout.BuildConfig

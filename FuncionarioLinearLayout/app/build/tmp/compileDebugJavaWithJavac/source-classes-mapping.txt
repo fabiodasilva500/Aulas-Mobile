@@ -1,0 +1,2 @@
+com/example/funcionariolinearlayout/BuildConfig.java
+ com.example.funcionariolinearlayout.BuildConfig

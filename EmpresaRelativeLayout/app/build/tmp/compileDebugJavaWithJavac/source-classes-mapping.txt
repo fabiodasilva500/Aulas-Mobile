@@ -1,0 +1,2 @@
+com/example/empresarelativelayout/BuildConfig.java
+ com.example.empresarelativelayout.BuildConfig
